@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Widgy (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "Widgy (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
