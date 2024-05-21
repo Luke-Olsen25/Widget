@@ -8,7 +8,8 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
-        <Button x:Name="myButton" Click="myButton_Click">Click Me</Button>
+    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="50">
+        <Button x:Name="myButton" HorizontalAlignment="Right" Click="myButton_Click">Click Me</Button>
+        <Button x:Name="newButton" HorizontalAlignment="Left" Click="newButton_Click">CLICK ME</Button>
     </StackPanel>
 </Window>

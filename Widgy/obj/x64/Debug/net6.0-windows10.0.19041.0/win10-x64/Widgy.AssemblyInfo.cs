@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Widgy")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6b250804f0c0e302c95c5881db7a00da27beb7e9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+36ec358dd482ff08bd815972233e4bd8a8aa9fde")]
 [assembly: System.Reflection.AssemblyProductAttribute("Widgy")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Widgy")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

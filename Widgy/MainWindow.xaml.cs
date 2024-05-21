@@ -5,6 +5,7 @@ using Microsoft.UI.Xaml.Data;
 using Microsoft.UI.Xaml.Input;
 using Microsoft.UI.Xaml.Media;
 using Microsoft.UI.Xaml.Navigation;
+using Windows.UI;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -23,6 +24,7 @@ namespace Widgy
     /// </summary>
     public sealed partial class MainWindow : Window
     {
+
         public MainWindow()
         {
             this.InitializeComponent();
@@ -31,6 +33,12 @@ namespace Widgy
         private void myButton_Click(object sender, RoutedEventArgs e)
         {
             myButton.Content = "Clicked";
+        }
+
+        private void newButton_Click(Object sender, RoutedEventArgs e)
+        {
+            newButton.Foreground = new SolidColorBrush(Color.FromArgb(255, 0, 255, 0));      
+            newButton.Content = "BALLS";
         }
     }
 }
