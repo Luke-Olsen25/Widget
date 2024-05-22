@@ -37,7 +37,7 @@ namespace Widgy
 
         private void newButton_Click(Object sender, RoutedEventArgs e)
         {
-            newButton.Foreground = new SolidColorBrush(Color.FromArgb(255, 0, 255, 0));      
+            //newButton.Foreground = new SolidColorBrush(Color.FromArgb(255, 0, 255, 0));      
             newButton.Content = "BALLS";
         }
     }

@@ -8,8 +8,14 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="50">
-        <Button x:Name="myButton" HorizontalAlignment="Right" Click="myButton_Click">Click Me</Button>
-        <Button x:Name="newButton" HorizontalAlignment="Left" Click="newButton_Click">CLICK ME</Button>
-    </StackPanel>
+    <Border BorderBrush="White" BorderThickness="2" Margin="12" Height="{Binding ElementName=STP,Path=ActualHeight}" Width="150" HorizontalAlignment="Left" CornerRadius="10">
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Top">
+            
+            <Button x:Name="myButton" Foreground="DarkSlateGray" VerticalAlignment="Top" Margin="2" HorizontalAlignment="Left" Click="myButton_Click">Home</Button>
+
+            <Button x:Name="newButton" Foreground ="DarkSLateGray" VerticalAlignment="Top" Margin="2" HorizontalAlignment="Left" Click="newButton_Click">New Widget</Button>
+            
+        </StackPanel>
+    </Border>
+
 </Window>

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lolse\\OneDrive\\Desktop\\New folder\\Widgy\\Widgy.csproj": {}
+    "C:\\Users\\lolse\\OneDrive\\Desktop\\project\\Widgy\\Widgy.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lolse\\OneDrive\\Desktop\\New folder\\Widgy\\Widgy.csproj": {
+    "C:\\Users\\lolse\\OneDrive\\Desktop\\project\\Widgy\\Widgy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lolse\\OneDrive\\Desktop\\New folder\\Widgy\\Widgy.csproj",
+        "projectUniqueName": "C:\\Users\\lolse\\OneDrive\\Desktop\\project\\Widgy\\Widgy.csproj",
         "projectName": "Widgy",
-        "projectPath": "C:\\Users\\lolse\\OneDrive\\Desktop\\New folder\\Widgy\\Widgy.csproj",
+        "projectPath": "C:\\Users\\lolse\\OneDrive\\Desktop\\project\\Widgy\\Widgy.csproj",
         "packagesPath": "C:\\Users\\lolse\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lolse\\OneDrive\\Desktop\\New folder\\Widgy\\obj\\",
+        "outputPath": "C:\\Users\\lolse\\OneDrive\\Desktop\\project\\Widgy\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
